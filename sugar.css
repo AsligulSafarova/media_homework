@@ -1,0 +1,507 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body{
+ font-family: sans-serif;
+ font-size: 14px;
+}
+.container{
+ width: 100%;
+ height: 100%;
+}
+.header{
+ width: 78.5%;
+ height: 450px;
+background-image: url(imgs/sugar3.jpg) ;
+background-size: cover;
+background-repeat: no-repeat;
+overflow: hidden;
+ margin: 0px 30px;
+ position: relative;
+}
+.header h1{
+ width: 510px;
+ font-size: 4.5em;
+ font-weight: bolder;
+ color: rgb(143, 98, 44);
+ line-height: 1em;
+ padding: 20px;
+}
+.header p{
+ width: 580px;
+ font-size: .9em;
+ padding-left: 20px;
+ padding-bottom: 30px;
+}
+.header a{
+ text-decoration: none;
+padding-left: 120px;
+width: 150px;
+border: 5px solid rgb(143, 98, 44);
+padding: 5px 30px;
+border-radius: 20px;
+margin-left: 30px;
+color: black;
+}
+.cards{
+ width: 80%;
+ height: 270px;
+ display: flex;
+ background-color: rgb(236, 232, 232);
+ position: relative;
+}
+.card{
+ width: 20%;
+ background-color:white;
+ margin: 5px 10px;
+ font-size: 0.9em;
+padding: 20px 20px;
+position: relative;
+top: -70px;
+left: 90px;
+}
+.card figure{
+ font-size: 3.5em;
+ text-align: center;
+ color: rgb(124, 84, 38);
+
+}
+.card i{
+ border-radius: 50%;
+ width: 80px;
+ height: 70px;
+padding-top: 15px;
+}
+.card h2{
+ font-size: 1.5em;
+ font-weight: bold;
+padding-bottom: 10px;
+}
+.gallery{
+ width: 80%;
+ height: 40%;
+ margin: 10px auto;
+ font-size: 1.1em;
+}
+.text{
+ width: 80%;
+ height: 150px;
+ margin: 20px  auto;
+ padding: 60px 55px;
+
+}
+.text h2{
+ text-transform: uppercase;
+ padding-left: 10%;
+
+}
+.text p{
+ width: 550px;
+ padding-top: 20px;
+
+}
+
+.photos{
+ width: 70%;
+ height: 70%;
+ padding: 20px;
+ display: flex;
+ flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+ gap: .5em;
+}
+.photos img{
+ width: 450px;
+ height: 250px;
+}
+.newidea{
+ width: 82%;
+ height: 510px;
+ background-color: rgb(241, 237, 237);
+}
+.life{
+ width: 50%;
+ margin: 10px auto;
+ padding: 30px 20px;
+ text-align: center;
+ font-size: 1.2em;
+}
+.life h2{
+ font-size: 2.5em;
+ text-transform: capitalize;
+ padding-bottom: 20px;
+}
+.life p{
+ width: 750px;
+ text-align:center;
+}
+.proteincards{
+ width: 100%;
+ height: 250px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 1em;
+}
+.cards4{
+ width: 18%;
+margin-left: 30px;
+font-size: 0.9em;
+color: rgb(143, 146, 146);
+
+}
+.cards4 h3{
+ font-size: 2em;
+ padding-bottom: 20px;
+ color: black;
+}
+.newidea a{
+font-size: 1.8em;
+color: rgb(126, 126, 126);
+border: 2px solid rgb(133, 93, 9);
+border-radius: 20px;
+width: 15%;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 5px 5px;
+margin-left: 680px;
+margin-bottom: 30px;
+text-decoration: none;
+
+}
+.container2{
+ width: 85%;
+ height: 350px;
+margin-top: 40px;
+ display: flex;
+ justify-content: center;
+ align-self: center;
+ gap: 1em;
+}
+
+.photos_4 img{
+width: 250px;
+height: 260px;
+
+}
+.mittel{
+ width: 310px;
+ height: 260px;
+ border:2px solid rgb(151, 125, 54);
+ font-size: 0.7em;
+ padding: 10px 10px;
+}
+.h2{
+ width: 350px;
+ padding: 20px 30px;
+ font-size: 2.9em;
+ font-weight: bold;
+}
+.lastone{
+ width: 99%;
+ height: 950px;
+ display: flex;
+ justify-content: start;
+}
+.lasttext{
+ width: 510px;
+ height: 520px;
+ background-color: rgb(235, 235, 235);
+text-align: center;
+padding-top: 120px;
+font-size: 0.9em;
+}
+ .lastimg img{
+ width: 950px;
+ height: 520px;
+ 
+}
+ .lasttext h2 {
+ width: 490px;
+ font-size: 2.9em;
+ font-weight: bolder;
+ padding-bottom: 30px;
+
+}
+ .lasttext p{
+ padding:  10px;
+ color: rgb(139, 139, 139);
+}
+.lasttext a{
+ text-decoration: none;
+ font-size: 1.5em;
+ color: black;
+ border: 2px solid rgba(116, 88, 11, 0.931);
+ border-radius: 20px;
+line-height: 5em;
+ padding: 5px 25px;
+}
+@media screen and (min-width:481px) {
+  .header{
+    width: 550px;
+    height: 350px;
+    font-size: 0.8em;
+  }
+  .header h1{
+    font-size: 1.9em;
+  }
+  .header p{
+    width: 250px;
+    font-size: .6em;
+  }
+  .container{
+    height: 950px;
+  }
+  .cards{
+    width: 700px;
+    height: 590px;
+    font-size: .5em;
+    display: flex;
+    flex-direction: column;
+  }
+   .gallery{
+    width: 950px;
+    height: 950px;
+
+
+  } 
+  .text {
+    width: 450px;
+    font-size: .5em;
+    text-align: left;
+margin-left: -30px;
+  }
+  .text p{
+    width: 280px;
+  text-align: left;
+  margin-bottom: 5px;
+  }
+  .photos{
+    width: 450px;
+    height: 160px;
+    display: flex;
+    justify-content: flex-start;
+
+  }
+  .photo{
+text-align: left;
+  }
+  .photos img{
+    width: 250px;
+    height: 120px;
+   }
+   .newidea{
+     width: 850px;
+     height: 650px;
+     font-size: .9em;
+   }
+.life{
+  width: 550px;
+  font-size: .9em;
+  text-align: start;
+  margin-left:-10px ;
+}
+.life p{
+  width: 320px;
+}
+.proteincards{
+  width: 550px;
+  font-size: .5em;
+  display: flex;
+  flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+}
+.container2{
+  width: 450px;
+  height: 1150px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.lastone{
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  height: 950px;
+}
+.lastimg img{
+  width: 350px;
+  height: 220px;
+  
+ }
+ .lasttext {
+  width: 350px;
+  height: 420px;
+  font-size: .7em;
+ }
+ .lasttext h2{
+   font-size: 1.9em;
+  text-align: start;
+  padding-left: 20px;
+ }
+
+}
+@media screen and (min-width:769px){
+  .header{
+    width: 580px;
+    position: relative;
+    font-size: 1.5em;
+  }
+  .container{
+    width:550px;
+    _height: 250px;
+
+  }
+.cards{
+    width: 610px;
+    height: 320px;
+  display: flex;
+flex-wrap: wrap;
+
+  } 
+  .card{
+    width: 85px;
+     margin: 5px; 
+    padding: 5px;
+    text-align: left;
+  }
+
+  .proteincards{
+    width: 410px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: .9em;
+  }
+  .cards4{
+    width: 350px;
+  }
+ .newidea a{
+margin-left: 43px;
+  } 
+  .life p {
+    width: 450px;
+    text-align: center;
+  }
+  .text p{
+    font-size: 1.9em;
+width: 550px;
+  }
+  .photos{
+    width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .newidea{
+    margin-top: -250px;
+  }
+  .container2{
+    width: 550px;
+    height: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .lastone{
+    width: 650px;
+    height: 120px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .lastone img{
+    height: 400px;
+  }
+}
+@media screen and (min-width:1025px){
+  .container{
+    width: 850px;
+  }
+  .cards{
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    align-items:flex-start;
+  }
+  .card{
+    width: 180px;
+  }
+}
+@media screen and (min-width:1281px){
+.container{
+  width: 1280px;
+}
+  .header{
+    width: 1280px;
+    height: 650px;
+  }
+ .header  .h1_media {
+    width: 550px;
+    font-size: 3.5em;
+  }
+  .header p{
+    width: 850px;
+    font-size: 1.5em;
+  }
+  .cards{
+    width: 1280px;
+    _height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .card{
+    width: 280px;
+    height: 380px;
+    font-size: 2.5em;
+    margin-left: 5px;
+    padding: 5px;
+
+  }
+
+  .text p{
+    width: 850px;
+    height: 850px;
+    font-size: 2.5em;
+  }
+  .text h2{
+    font-size: 3em;
+  }
+  .life{
+    width: 950px;
+    font-size: 1.5em;
+    text-align: center;
+
+  }
+  .life p{
+    width: 820px;
+  }
+  .proteincards{
+    width: 750px;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cards4{
+    width: 160px;
+    height: 150px;
+  }
+  .cards4 h3{
+    width: 350px;
+    font-size: 1.2em;
+  }
+  .newidea a{
+    margin-left: 295px;
+  }
+  .container2{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
